@@ -1,0 +1,43 @@
+.caja_centro{
+    border: 2px solid;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+
+    width: 25rem;
+    height: 10rem;    
+}
+
+body{
+    background-image: url(img/niebla.jpg);
+}
+
+.input_nombre_contras{
+    width: 50%;
+    height: 2rem;
+    background: linear-gradient(to bottom,rgb(232, 228, 241),rgb(241, 182, 182));
+    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem ;
+}
+
+.boton{
+    width: 50%;
+    height: 2rem;
+    background-color: #caae7f;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem ;
+    cursor: pointer;
+    margin-top: 1rem;    
+    
+}
+
+legend{
+    color: #585d57;
+}
