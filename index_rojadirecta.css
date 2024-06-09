@@ -50,6 +50,15 @@ ul li{
         
 }
 
+.nav_ico{
+    height: 30px;
+    display: inline-block;
+    border-color: white;
+}
+
+
+
+
 
 #cuadradito_invisible_texto{
     width: 700px;

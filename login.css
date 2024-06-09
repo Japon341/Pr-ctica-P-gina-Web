@@ -1,18 +1,31 @@
-.caja_centro{
-    border: 2px solid;
-    margin: auto;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    
-
-    width: 25rem;
-    height: 10rem;    
-}
-
 body{
     background-image: url(img/niebla.jpg);
+    
 }
+
+
+
+.padre_caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+}
+
+.caja_centro{
+    border: 2px solid;
+    width: 25rem;
+    padding: 20px;
+    text-align: center;
+    
+    border-bottom-left-radius: 100px ;
+    border-bottom-right-radius: 100px ;
+    border-top-right-radius: 100px ;
+    border-top-left-radius: 100px ;
+
+}
+
 
 .input_nombre_contras{
     width: 50%;
