@@ -1,9 +1,13 @@
 body{
     background-image: url(img/niebla.jpg);
-    
+}
+.required{
+    background-color: blue;
 }
 
-
+*::-webkit-scrollbar {
+    display: none;
+}
 
 .padre_caja{
     display: flex;
@@ -38,7 +42,7 @@ body{
     border-bottom-right-radius: 2rem ;
 }
 
-.boton{
+.submit{
     width: 50%;
     height: 2rem;
     background-color: #caae7f;
@@ -48,8 +52,13 @@ body{
     border-bottom-right-radius: 2rem ;
     cursor: pointer;
     margin-top: 1rem;    
-    
 }
+.submit:hover{
+    color: #caae7f;
+    background-color: #585d57;
+    border: 2px solid #caae7f;
+}
+
 
 legend{
     color: #585d57;

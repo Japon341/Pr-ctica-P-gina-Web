@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <title>Inicio de Sesión</title>
     <link rel="stylesheet" href="login.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logueate aqui">
 
 </head>
 <body>
@@ -15,15 +17,21 @@
             <form action="">
 
                 <label for="texto">Introduce tu nombre </label>
-                <input class="input_nombre_contras"  type ="text"required placeholder="Ejemplo: Jaime"><br>
+                <input class="input_nombre_contras"  type ="text" list="items"  placeholder="Ejemplo: Jaime">
+                <datalist id="items">
+                    <option value="Jaime">Asencio</option>
+                    <option value="afor_digital">Afor_digital</option>
+                    <option value="padawanstrainer">PadawansTrainer</option>
+                    <option value="Walter">White</option>
+                  </datalist>
+                <br>
                 <br>
                 
                 <label for="contraseña">Introduce tu contraseña </label>            
-                <input class="input_nombre_contras" type="password"  required placeholder="Ejemplo: 123" > 
+                <input class="input_nombre_contras" type="password"  required   placeholder="Ejemplo: 123" > 
                 <br>   
                 
-                
-            <a href="index_rojadirecta.html"><input  class="boton" type="button" required  value="Enviar">
+                <a href="index_rojadirecta.html"><input  class="submit" type="submit" required  value="Enviar">
             </form>
         </fieldset>
     </div>
